@@ -24,6 +24,8 @@ body {
     color: #d9dcd6;
 }
 
+/* Menu Bar Navigation*/
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,11 +38,12 @@ body {
     list-style-type: none;
 }
 
-/* Menu Bar Navigation*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/*Main Page*/
 
 a {
     color: #ffffff;
@@ -51,7 +54,6 @@ p {
     font-size: 16px;
 }
 
-/*Main Page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -89,65 +91,27 @@ p {
     background-color: #2589bd;
 }
 
-/*Benefits Section: Lead Generation Header*/
-.benefit-lead {
+/*Benefits Section Headers*/
+.benefit-header {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Benefits Section: Brand Awareness Header*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Benefits Section: Cost Management Header*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Benefits Section: Lead Generation Descriptive Text*/
-.benefit-lead h3 {
+/*Benefits Section Descriptive Text*/
+.benefit-header h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Benefits Section: Brand Awareness Descriptive Text*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Benefits Section: Cost Management Descriptive Text*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Benefits Section: Lead Generation Image*/
-.benefit-lead img {
+/*Benefits Section Images*/
+.benefit-header img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*Benefits Section: Brand Awareness Image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Benefits Section: Cost Management Image*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Search Engine Optimization Section*/
-.search-engine-optimization {
+/*SubSections*/
+.titles {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -156,55 +120,13 @@ p {
     color: #ffffff;
 }
 
-/*Online Reputation Management Section*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Social Media Marketing Section*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Search Engine Optimization Section Image*/
-.search-engine-optimization img {
+/*SubSections Images*/
+.titles img {
     max-height: 200px;
 }
 
-/*Online Reputation Management Section Image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*Social Media Marketing Section Image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Search Engine Optimization Section Descriptive Text*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Online Reputation Management Section Descriptive Text*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Social Media Marketing Section Descriptive Text*/
-.social-media-marketing h2 {
+/*SubSections Descriptive Text*/
+.titles h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
